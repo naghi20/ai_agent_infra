@@ -51,7 +51,7 @@ A DevOps engineer submits an infrastructure requirement. Amazon Bedrock converts
 
 ## 3. Architecture
 
-```
+```mermaid
 flowchart TD
     U[DevOps engineer] --> API[API Gateway]
     AUTH[Cognito authentication] --> API
